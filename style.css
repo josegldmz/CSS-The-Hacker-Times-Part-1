@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 body {
-    font-family: Source Sans Pro;
-    background-color: white;
+    background-color: #eee;
     border: #eee;
+    padding: 2em 20em 2em 20em;
+}
+    
+.newspaper-container {
+    border: solid #eee;
+    background-color: white;
+    width: 700px;
+    border-radius: 30px;
+    box-shadow: #ddd;
+    padding:1em;
+    margin: auto;
+}
+
+.date {
+    font-family: aource sans pro;
+    color: gray;
 }
 
 h1 {
@@ -15,27 +30,31 @@ h1 {
 nav {
     color: gray;
     font-family: source sans pro;
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
 }
 
 nav li {
     display: inline-block;
-    margin: 0.25em;
     font-size: 1em;
-    border: 0.25em 0.5em 0.25em 0.5em solid;
-    border-color: #777;
+    padding: 3px;
 }
 
 a:link {
-    color:#777
+    color:#777;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #777
+    color: #777;
 }
 
+main img {
+    width: 100%;
+}
 
-h2{
-    font-size: 2em;
+h2 {
+    font-size: 1.75em;
     text-align: left;
     font-family: Roboto Slab;
 }
@@ -45,21 +64,29 @@ h5 {
     font-family: Abril Fatface;
 }
 
-hr {
-    ;
-    width: 95%;
+.more-articles {
+    border-top: solid 1px #777;
 }
 
-.more-articles {
-    display:inline-block;
+.sec {
+    display: inline-block;
+    width: 40%;
+    padding: 2em;
+    margin: auto;
 }
+
+.sec img {
+    width: 100%;
+}
+
 
 p {
     font-family: source sans pro;
+
 }
 
 h4 {
     font-family: Roboto Slab;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
 }
