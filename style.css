@@ -28,6 +28,9 @@ h1 {
 }
 
 nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
     color: gray;
     font-family: source sans pro;
     border-top: solid 1px #777;
